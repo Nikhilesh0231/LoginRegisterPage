@@ -7,7 +7,8 @@ import { Login } from './Pages/Login';
 import { Register } from './Pages/Register';
 import axios from "axios";
 
-axios.defaults.baseURL = 'http://localhost:4000';
+// axios.defaults.baseURL = 'http://localhost:4000';
+axios.defsultd.bsseURL = "https://loginregisterpage-tmal.onrender.com";
 axios.defaults.withCredentials = true;
 
 
